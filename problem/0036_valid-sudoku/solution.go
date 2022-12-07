@@ -5,8 +5,8 @@ package valid_sudoku
 //   - board[i].length == 9
 //   - board[i][j] is a digit 1-9 or '.'.
 
-// N: height of the input board (fixed as 9)
-// M: width of the input board (fixed as 9)
+// N: height of the input matrix board (fixed as 9)
+// M: width of the input matrix board (fixed as 9)
 //
 //   - Time Complexity: O(N*M)
 //   - Space Complexity: O(N*M)

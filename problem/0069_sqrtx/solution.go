@@ -12,7 +12,7 @@ var (
 	_      = bitwiseOperations
 )
 
-// N: the input number x
+// N: input number x
 //
 //   - Time Complexity: O(logN)
 //   - Space Complexity: O(1)
@@ -33,7 +33,7 @@ func manualBinarySearch(x int) int {
 	return l - 1
 }
 
-// N: the input number x
+// N: input number x
 //
 //   - Time Complexity: O(logN)
 //   - Space Complexity: O(1)
@@ -45,7 +45,7 @@ func stdlibSortSearch(x int) int {
 	}) - 1
 }
 
-// N: the input number x
+// N: input number x
 //
 //   - Time Complexity: O(logN)?
 //   - Space Complexity: O(1)
@@ -61,7 +61,7 @@ func newtonsMethod(x int) int {
 	return r
 }
 
-// L: the minimum number of bits required to represent x
+// L: minimum number of bits required to represent x
 //
 //   - Time Complexity: O(L)
 //   - Space Complexity: O(1)

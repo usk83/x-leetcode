@@ -20,7 +20,7 @@ var digitsLettersMap = map[byte][]byte{
 	'9': {'w', 'x', 'y', 'z'},
 }
 
-// N: Length of the input string digits
+// N: length of the input string digits
 //
 //   - Time Complexity: O(4^N)?
 //   - Space Complexity: O(4^N)?
@@ -47,7 +47,7 @@ func letterCombinationsSimple(digits string) []string {
 	return combs
 }
 
-// N: Length of the input string digits
+// N: length of the input string digits
 //
 //   - Time Complexity: O(4^N)?
 //   - Space Complexity: O(4^N)?

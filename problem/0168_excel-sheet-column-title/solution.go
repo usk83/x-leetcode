@@ -3,7 +3,7 @@ package excel_sheet_column_title
 // Constraints:
 //   - 1 <= columnNumber <= 2^31 - 1
 
-// N: the input number columnNumber
+// N: input number columnNumber
 //
 //   - Time Complexity: O(log_26 N)
 //   - Space Complexity: O(log_26 N)
