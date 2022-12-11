@@ -42,7 +42,7 @@ func New(arr []int) *ListNode {
 }
 
 func NewFromString(str string) (*ListNode, error) {
-	if len(str) == 0 {
+	if len(str) == 0 || str == "[]" {
 		return nil, nil
 	}
 
@@ -50,13 +50,7 @@ func NewFromString(str string) (*ListNode, error) {
 		return nil, &InvalidStringError{}
 	}
 
-	str = str[1 : len(str)-1]
-
-	if len(str) == 0 {
-		return nil, nil
-	}
-
-	vs := strings.Split(str, ",")
+	vs := strings.Split(str[1:len(str)-1], ",")
 
 	arr := make([]int, len(vs))
 	for i, v := range vs {
